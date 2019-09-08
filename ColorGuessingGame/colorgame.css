@@ -1,0 +1,184 @@
+html{
+    background-image: url("ep_naturalblack.png");
+}
+h3
+{
+    font-size: 12vh;
+    text-align: center;
+    background-color:  purple;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 50;
+    margin-top: 0%;
+}
+.section-1
+{
+    background-color: rgba(163, 135, 131, 0.171);
+    margin-right: 10%;
+    margin-left:10%;
+    padding-top:1px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4vh;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 1%;
+    letter-spacing: 1.5px;
+}
+.section-1 span
+{
+    color:yellow;
+    font-size: 3vh;
+}
+#lmao
+{
+    font-weight:600;
+}
+.game h1
+{
+    text-align: center;
+    font-family: 'Blinker', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 10vh;
+    text-transform: uppercase;
+    margin-bottom: 0%;
+    margin-top: 1%;
+    background-color:  steelblue;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+
+}
+.game h2
+{
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color:white;
+    font-size: 6vh;
+    padding-bottom: 2%;
+    background-color: steelblue;
+    margin-bottom: 0%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+}
+.square
+{
+    background-color: purple;
+    width: 30%;
+    float: left;
+    margin:1.66%;
+    padding-bottom:30%;
+    border-radius: 15%;
+    transition: background 0.6s;
+    -webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s;
+
+}
+#container
+{
+    max-width:600px;
+    margin: 0 auto;
+}
+
+
+#stripe
+{
+    margin-top: 0%;
+    background-color:white;
+    height: 30px;
+    text-align: center;
+    font-color: black;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+}
+
+.selected
+{
+    color: white;
+    background-color: steelblue;
+}
+ 
+button
+{
+    border: none;
+    background: none;
+    height:100%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color:steelblue;
+    font-weight: 1000;
+    font-size: inherit;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    outline: none;
+
+}
+#message
+{
+    display: inline-block;
+    width:23%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 1000;
+}
+.game
+{
+    padding-top:0%; 
+    overflow: hidden;
+    border: 10px groove steelblue;
+    margin-right: 20%;
+    margin-left:20%;
+}
+
+button:hover
+{
+    color: white;
+    background-color: steelblue;
+}
+
+@media only screen and (max-width: 1000px)
+{
+    h3 
+    {
+        font-size:6vh;
+    }
+    .section-1
+    {
+        font-size: 2vh;
+        margin-bottom: 2%;
+    }
+    .game
+    {
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+    .game h1 
+    {
+        font-size:4vh;
+    }
+    .game h2 
+    {
+        letter-spacing: 0px;
+        font-size: 3vh;
+    }
+    #stripe
+    {
+        height: 3.5vh;
+    }
+    button 
+    {
+        font-size: 1.5vh;
+    }
+    #message
+    {
+        font-size: 1.25vh;
+    }

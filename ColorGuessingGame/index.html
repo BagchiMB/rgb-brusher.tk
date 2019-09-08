@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Color Guessin Game</title>
+
+    <link rel="stylesheet" href="colorgame.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Blinker&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h3>RGB BRUSHER</h3>
+    <div class="section-1 ">
+        <p> <span id="lmao">RGB. Stands for "Red Green Blue."</span> <br><br> RGB refers to three hues of light that can be mixed together to create different colors. Combining red, green, and blue light is the standard method of producing color images on screens, such as TVs, computer monitors, and smartphone screens.</p>
+        <p>Maximum values for: <br> R=255<br>G=255<br>B=255</p>
+        <span>TRY OUR GAME BELOW</span>
+    </div>
+    <div class="game">
+        <h1>Brush Up your RGB Skills</h1>
+        <h2>Guess <span id="colordisplay">rgb</span></h2>
+    
+        <div id="stripe">
+            <button id="reset">New Colors</button>
+            <span id="message"></span>
+            <button id="EasyBtn">Easy</button>
+            <button id="HardBtn" class="selected">Hard</button>
+        </div>
+        
+        <div id="container">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+
+    </div>
+            
+    <script src="colorgame.js"></script>
+</body>
+</html>
